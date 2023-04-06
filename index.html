@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIIAAP Autohaus</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <main>
     <header>
         <h1>SIIAAP Autohaus</h1>
-        <img src="./images/shoplogo.png" alt="shop_logo" width="280" height="280">
-        <nav>
-            <menu>
+        <img id="logo" src="./images/shoplogo.png" alt="shop_logo" width="180" height="180">
+        <nav id="menu">
+            <ul>
                 <li><a href="#ford">Ford</a></li>
                 <li><a href="#toyota">Toyota</a></li>
                 <li><a href="#bmw">BMW</a></li>
                 <li><a href="#table">Table</a></li>
                 <li><a href="#form">Car Purchase Form</a></li>
-            </menu>
+            </ul>
         </nav>
-            <h1>Choose your car</h1>
+            <h1 id="titlecar">Choose your car</h1>
             </header>
             <hr>    
-            <article>
+            <article class="carsection">
                 <section>
                     <h1 id="ford">Ford</h1>
                     <img src="./images/Ford_Motor_Company_Logo.svg.png" alt="logoford" height="60" width="140">
@@ -73,7 +74,7 @@
                 </section>
             </article>
            
-            <article>
+            <article class="carsection">
                 <section>
                     <h1 id="toyota">Toyota</h1>
                     <img src="./images/Toyota_logo.svg" alt="toyota">
@@ -117,7 +118,7 @@
                 </section>
             </article>
             
-            <article>
+            <article class="carsection">
                 <section>
                     <h1 id="bmw">BMW</h1>
                     <img src="./images/BMW_logo_(gray).svg.png" alt="logo_bmw" height="120" width="120">
@@ -156,7 +157,7 @@
                     <hr>
                 </section>
             </article>
-            <article>
+            <article class="carsection">
                 <section>
                     <h3 id="table">Car Features</h3>
                     <table border="1">
@@ -229,16 +230,17 @@
                         </tr>
                         </tbody>
                     </table>
+                    <hr>
                 </section>
             </article>
     </main>
     <footer>
-        <nav>
-            <address>
+        <nav id="contacts">
+            <address id="address">
                 1641 Challenge Drive, Suite 500, Concord, CA 94520
             </address>
-            <p><Strong>Phone:</Strong> (925) 356-0683</p>
-            <p><strong>Mail:</strong> aotohaus@gmail.com</p>
+            <p id="phone"><Strong>Phone:</Strong> (925) 356-0683</p>
+            <p id="mail"><strong>Mail:</strong> aotohaus@gmail.com</p>
             <a href="http://127.0.0.1:5500/index.html">SIIAAP Autohaus</a>
         </nav>
     </footer>

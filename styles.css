@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px ;
+    margin: 0;
+    padding: 0;
+}
+#titlecar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(190, 62, 62);
+    text-align: center;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu {
+    position: absolute;
+    top: 10px;
+    background-color: rgb(226, 197, 197);
+    width: 100%;
+
+}
+#menu ul {list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#menu a { text-decoration: none; 
+color: rgb(0, 0, 0); }
+#menu li a:hover { color: rgb(255, 0, 0); }
+
+h1,h3,h4 {
+    color: rgb(190, 62, 62);
+}
+
+.carsection {
+    display: flex;;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px; 
+    background-color: rgb(226, 197, 197); 
+    padding: 20px; 
+}
+
+#contacts {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#address, #phone, #mail {
+    margin: 0 10px;
+}
