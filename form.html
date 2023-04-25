@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="./formstyle.css">
 </head>
 <body>
+    <h1>HomeWork for CSS Flexbox</h1>
     <form>
         <div id="buy-car">
-            <div>
+            <div class="col">
         <fieldset>
             <legend>Personal Info</legend>
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" name="fname"><br>
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" name="lname"><br>
         <label for="birthday">Birthday</label>
         <input type="date"><br>
         <legend>Gender</legend>
@@ -27,37 +28,40 @@
         <label for="experience">Driver experience</label>
         <select name="experience" id="experience">
             <option>---</option>
-            <option>Up to 1 year</option>
-            <option>From 1-5 years</option>
-            <option>Over 5 years</option>
+            <option>expert</option>
+            <option>more than 10</option>
+            <option>5-10</option>
+            <option>2-5</option>
+            <option>less than 2</option>
+            <option>beginner</option>
         </select>
         </fieldset>
             </div>
-            <div>
+            <div class="col">
         <fieldset>
             <legend>Contacts</legend>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" name="email"><br>
         <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone"><br>
+        <input type="tel" name="phone"><br>
         <div>
         <label for="adress">Address</label>
-        <textarea name="address" cols="30" rows="10"></textarea>
+        <textarea name="address" cols="10" rows="4"></textarea>
         </div>
         </fieldset>
             </div>
-            <div>
+            <div class="col">
         <fieldset>
             <legend>Car Info</legend>
         <label for="brend">Brend</label>
-        <select name="brend" id="brend">
+        <select name="brend">
             <option>---</option>
             <option>Ford</option>
             <option>Toyota</option>
             <option>BMW</option>
         </select><br>
         <label for="model">Model</label>
-        <select name="model" id="model">
+        <select name="model">
             <option>---</option>
             <option>Mondeo</option>
             <option>Fiesta</option>
@@ -69,7 +73,7 @@
         <br>
         <div>
         <label for="used">Used</label>
-        <input type="checkbox" name="used" id="used">
+        <input type="checkbox" name="used">
         </div>
         <legend>Color</legend>
         <label for="red">Red</label>
@@ -83,11 +87,11 @@
         <label for="grey">Grey</label>
         <input type="radio" name="color"><br>
         <label for="price">Price</label>
-        <input type="range" min="10000" max="100000"><br>
+        <input type="range" min="10" max="100" step="10"><br>
     </fieldset>
             </div>
 </div>
-    <div>
+    <div id="button">
         <button type="reset">Cancel</button>
         <button type="submit">Submit</button>
     </div>

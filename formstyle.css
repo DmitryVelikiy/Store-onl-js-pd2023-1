@@ -1,4 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
 
 #buy-car {
     display: flex;
+    justify-content: center;  
+}
+
+.col {
+    margin-top: 10px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
 }
