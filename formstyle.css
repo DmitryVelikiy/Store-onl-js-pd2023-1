@@ -1,23 +1,88 @@
 * {
     box-sizing: border-box;
 }
-
-h1 {
-    text-align: center;
+:root {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#buy-car {
+#form-cont {
     display: flex;
-    justify-content: center;  
-}
-
-.col {
-    margin-top: 10px;
-}
-
-#button {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
-    gap: 10px;
+}
+
+fieldset {
+	min-width: 25%;
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.input-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+#address-cont {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#check-cont {
+    width: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#color-cont {
+    display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+
+#button-cont {
+    min-width: 200px;
+	max-width: 300px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+label + input:focus {
+	background-color: rgb(245, 241, 211);
+}
+
+input[type='text'],
+input[type='email'],
+input[type='datetime-local'] {
+	min-width: 50%;
+}
+legend {
+	font-size: 25px;
+	text-align: center;
+}
+select {
+	min-width: 50%;
+}
+select > option {
+	font-size: 20px;
+}
+textarea {
+	min-width: 50%;
+}
+button {
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+textarea:focus,
+select:focus {
+	background-color: antiquewhite;
 }
